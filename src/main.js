@@ -6,6 +6,7 @@ import router from './router'
 import store from './store'
 import axios from 'axios'
 
+axios
 const app = createApp(App)
 app.use(ElementPlus)
 app.use(store)
