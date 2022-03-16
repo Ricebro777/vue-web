@@ -48,7 +48,7 @@ export default {
 <style>
 .searchTitle {
   position: absolute;
-  top: 173px;
+  top: 20%;
   left: 50%;
   margin-left: -420px;
   white-space: nowrap;
@@ -63,7 +63,7 @@ export default {
 
 .searchFunctionTitle {
   position: absolute;
-  top: 252px;
+  top: 27%;
   left: 50%;
   margin-left: -420px;
   white-space: nowrap;
@@ -73,7 +73,7 @@ export default {
 
 .searchContent {
   position: absolute;
-  top: 289px;
+  top: 30%;
   left: 50%;
   margin-left: -420px;
   white-space: nowrap;

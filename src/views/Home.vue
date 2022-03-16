@@ -101,6 +101,7 @@ export default {
 
 body {
   width: 100%;
+  position: absolute;
   background-image: url(../assets/css/loginImg.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -112,7 +113,6 @@ body {
   margin: 10px 10px 0;
   display: flex;
   padding-left: 56px;
-  /* flex: none; */
   justify-content: space-between;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .2);
   border-radius: 3px;
@@ -122,17 +122,10 @@ body {
   font-weight: bold;
   font-size: 20px;
   display: block;
-  /* flex: none; */
   padding-top: 26px;
 }
 
 .el-header .el-menu {
-  /* position: abosolute;
-  left: 50%;
-  width: 600px;
-  margin-left: -300px;
-  margin-top: 10px; */
-  /* flex: none; */
   width: auto;
   flex: none;
 }

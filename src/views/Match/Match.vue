@@ -101,7 +101,7 @@ export default {
     position: absolute;
     width: 90%;
     height: 70%;
-    background: red;
+    background-color: aquamarine;
     top: 20%;
     left: 5%;
 }
@@ -110,7 +110,7 @@ export default {
     position: absolute;
     width: 90%;
     height: 70%;
-    background: green;
+    background: silver;
     top: 20%;
     left: 5%;
 }
@@ -119,7 +119,7 @@ export default {
     position: absolute;
     width: 90%;
     height: 70%;
-    background: blue;
+    background: pink;
     top: 20%;
     left: 5%;
 }

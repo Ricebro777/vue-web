@@ -7,6 +7,7 @@
 <style>
 html,body,#app{
   height: 100%;
-  width: 100%;
+  min-width: 1519.2px; 
+  min-height: 710px;
 }
 </style>

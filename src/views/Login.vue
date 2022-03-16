@@ -7,7 +7,7 @@
       class="loginContent"
       :label-position="labelPosition"
       label-width="50px"
-      style="max-width: 350px"
+      style="width: 350px"
       hide-required-asterisk
       ref="loginFormRef"
     >
@@ -21,13 +21,13 @@
         <el-checkbox label="记住账号"></el-checkbox>
       </el-form-item>
       <el-form-item>
-        <el-button color="#1047F7" style="color: white; width: 460px" @click="login"
+        <el-button color="#1047F7" style="color: white; width: 460px " @click="login"
           >立即登录</el-button
         >
       </el-form-item>
       <el-form-item>
         <span>没有账号？</span>
-        <el-button type="text" @click="goToRegister">注册</el-button>
+        <el-button type="text" @click="goToRegister" class="registerButton">注册</el-button>
       </el-form-item>
     </el-form>
   </div>
@@ -86,6 +86,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 
 .loginBox {
@@ -95,9 +98,9 @@ body {
   border-radius: 6px;
   position: absolute;
   top: 50%;
-  margin-top: -230px;
+  margin-top: -240px;
   left: 50%;
-  margin-left: -240px;
+  margin-left: -230px;
 }
 
 .login-title {
@@ -114,5 +117,11 @@ body {
 .loginContent {
   margin-top: 30px;
   padding-left: 55px;
+}
+
+/* 调整按钮中文字的位置以及文字大小 */
+.registerButton{
+  padding-top:11px;
+  font-size: 16px;
 }
 </style>

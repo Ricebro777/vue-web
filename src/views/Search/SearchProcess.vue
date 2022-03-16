@@ -105,8 +105,8 @@ export default {
 <style>
 .searchContentBox {
   position: absolute;
-  left: 30%;
-  top: 200px;
+  left: 20%;
+  top: 10%;
   white-space: nowrap;
 }
 
@@ -114,13 +114,9 @@ export default {
   white-space: nowrap;
 }
 
-.filterSelect{
-  padding-left: 90px;
-}
-
 .filterSelect .el-input__inner {
   height: 50px;
-  width: 130px;
+  width: 200px;
 }
 
 .searchInput {
@@ -128,14 +124,15 @@ export default {
 }
 
 .searchInput .el-input__inner {
-  width: 525px;
+  width: 700px;
   height: 50px;
-  line-height: 50px;
 }
 
 .searchButton .el-button {
-  width: 96px;
+  margin-left: 60px;
+  width: 120px;
   height: 50px;
+  font-size: 20px;
 }
 
 .divider{
@@ -158,10 +155,11 @@ export default {
 
 .searchResultBox{
   width: 1116px;
-  height: 660px;
+  height: 60%;
   position:absolute;
-  left: 30%;
-  top: 400px;
+  left: 20%;
+  top: 37%;
+  background-color: white;
 
 }
 </style>

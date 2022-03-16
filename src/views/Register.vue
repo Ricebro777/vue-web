@@ -33,7 +33,7 @@
       </el-form-item>
       <el-form-item>
         <span>已经有了账户？</span>
-        <el-button type="text" @click="goToLogin">登录</el-button>
+        <el-button type="text" @click="goToLogin" class="loginButton">登录</el-button>
       </el-form-item>
     </el-form>
   </div>
@@ -107,6 +107,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
 }
 
 .registerBox {
@@ -116,9 +120,9 @@ body {
   border-radius: 6px;
   position: absolute;
   top: 50%;
-  margin-top: -230px;
+  margin-top: -240px;
   left: 50%;
-  margin-left: -240px;
+  margin-left: -230px;
 }
 
 .registerTitle {
@@ -134,5 +138,10 @@ body {
 .registerContent {
   margin-top: 30px;
   padding-left: 55px;
+}
+
+.loginButton{
+  padding-top:11px;
+  font-size: 16px;
 }
 </style>

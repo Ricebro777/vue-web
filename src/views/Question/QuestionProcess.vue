@@ -23,9 +23,9 @@
         <el-input 
             v-model="questionContent"
             placeholder="请输入问题..."
-            style="width:800px; padding-top:30px; padding-left:30px"
+            style="width:80%; position:absolute;top:50%; margin-top:-20px;"
         ></el-input>
-        <el-button type="primary">发送</el-button>
+        <el-button type="primary" style="position:absolute; top:50%; left:80%; margin-top:-20px">发送</el-button>
     </div>
   </div>
 </template>
@@ -58,7 +58,7 @@ export default {
 <style>
 .questionHeader {
   position: absolute;
-  top: 120px;
+  top: 10%;
   left: 10%;
   white-space: nowrap;
   border-left: 5px solid blue;
@@ -75,7 +75,7 @@ export default {
 
 .questionMain {
   position: absolute;
-  top: 160px;
+  top: 16%;
   left: 10%;
   width: 80%;
   height: 80%;
@@ -85,16 +85,16 @@ export default {
 .questionMain .questionHistory{
   position: absolute;
   width: 65%;
-  height: 90%;
+  height: 85%;
   background-color: aqua;
 }
 
 .questionMain .inputBox{
   position: absolute;
   width: 65%;
-  height: 10%;
-  top: 90%;
-  background-color: blue;
+  height: 15%;
+  top: 85%;
+  background-color: pink;
 }
 
 .questionMain .relevantKnowledge{
@@ -102,7 +102,7 @@ export default {
   width: 35%;
   height: 100%;
   left: 65%;
-  background-color: red;
+  background-color: greenyellow;
 }
 
 .questionMain .inputBox .el-input__inner{
@@ -118,7 +118,8 @@ export default {
 .back{
     position: absolute;
     left: 7.5%;
-    top: 9.3%;
+    top: 10%;
+    margin-top: -6px;
 
 }
 
